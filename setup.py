@@ -23,13 +23,13 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 install_requires = [
-    "torch==1.11.0",
-    "fsspec==0.8.4",
-    "pandas==1.1.4",
-    "tqdm==4.54.0",
-    "sklearn==0.0",
-    "absl-py==0.11.0",
-    "gcsfs==0.7.1",
+    "torch>=1.11.0",
+    "fsspec>=0.8.4",
+    "pandas>=1.1.4",
+    "tqdm>=4.54.0",
+    "sklearn>=0.0",
+    "absl-py>=0.11.0",
+    "gcsfs>=0.7.1",
 ]
 
 nam_description = ('Neural Additive Models (PyTorch): Intepretable ML with Neural Nets')
